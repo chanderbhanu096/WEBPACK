@@ -12,7 +12,7 @@ app.use(bodyParser.json());
 
 // Cors for cross origin allowance
 const Cors = require('cors');
-s
+
 app.use(Cors());
 app.use(express.static('dist'))
 
@@ -23,7 +23,7 @@ app.get('/', function(req, res) {})
 
 // designates what port the app will listen to for incoming requests
 app.listen(8081, function() {
-    console.log('Example app listening on port ')
+    console.log('Example app listening on  8081 ')
 })
 
 app.get('/test', function(req, res) {
